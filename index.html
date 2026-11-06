@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Dream Client — Boost Your Frames, Master Your Game</title>
+
+    <meta name="description" content="Dream Client is an all-in-one Minecraft client with a massive FPS boost, 60+ built-in PvP mods, seamless Fabric support and free cosmetics. Download for free." />
+    <meta name="keywords" content="minecraft client, dream client, minecraft fps boost, minecraft pvp client, minecraft launcher, minecraft mods, fabric" />
+    <meta name="author" content="Dream Client Team" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b0712" />
+
+    <link rel="canonical" href="https://dreamclient.pl/" />
+    <link rel="alternate" hreflang="pl" href="https://dreamclient.pl/?lang=pl" />
+    <link rel="alternate" hreflang="en" href="https://dreamclient.pl/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://dreamclient.pl/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dream Client" />
+    <meta property="og:url" content="https://dreamclient.pl/" />
+    <meta property="og:title" content="Dream Client — Boost Your Frames, Master Your Game" />
+    <meta property="og:description" content="All-in-one Minecraft client: FPS boost, 60+ PvP mods, Fabric support and free cosmetics." />
+    <meta property="og:image" content="https://dreamclient.pl/preview/mainmenu.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dream Client — Boost Your Frames, Master Your Game" />
+    <meta name="twitter:description" content="All-in-one Minecraft client: FPS boost, 60+ PvP mods, Fabric support and free cosmetics." />
+    <meta name="twitter:image" content="https://dreamclient.pl/preview/mainmenu.webp" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400..900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="/preview/mainmenu.webp" />
+    <link rel="stylesheet" href="/assets/style.css" />
+
+    <script type="application/ld+json">
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Dream Client",
+          "operatingSystem": "Windows, macOS, Linux",
+          "applicationCategory": "GameApplication",
+          "image": "https://dreamclient.pl/preview/mainmenu.webp",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+          "description": "All-in-one Minecraft client with FPS optimizations, 60+ built-in PvP mods, Fabric support and free cosmetics."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Dream Client",
+          "url": "https://dreamclient.pl/",
+          "logo": "https://dreamclient.pl/favicon-512x512.png",
+          "sameAs": ["https://dc.dreamclient.pl"]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "Is Dream Client completely free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Dream Client is 100% free to download and use, including cosmetics." } },
+            { "@type": "Question", "name": "Does Dream Client boost Minecraft FPS?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It ships with rendering optimizations and smarter memory management that significantly increase FPS on most PCs." } },
+            { "@type": "Question", "name": "What operating systems are supported?", "acceptedAnswer": { "@type": "Answer", "text": "Windows, macOS and Linux." } },
+            { "@type": "Question", "name": "Can I use my own Fabric mods?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Dream Client has a built-in Fabric mods manager, so you can add your favourite mods alongside the built-in ones." } },
+            { "@type": "Question", "name": "Is Dream Client allowed on servers?", "acceptedAnswer": { "@type": "Answer", "text": "Dream Client contains only quality-of-life and performance mods, no cheats. Always check the rules of the server you play on." } }
+          ]
+        }
+      ]
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+    <div class="bg" aria-hidden="true">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <!-- NAV -->
+    <header class="nav" id="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#top" aria-label="Dream Client">
+          <img src="/logo.svg" alt="" width="32" height="32" onerror="this.style.display='none'" />
+          <span>Dream<b>Client</b></span>
+        </a>
+        <nav class="nav-links" id="navLinks" aria-label="Main">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#showcase" data-i18n="nav.showcase">Showcase</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="https://dc.dreamclient.pl" target="_blank" rel="noopener">Discord</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="lang" id="langToggle" type="button" aria-label="Change language">PL</button>
+          <a class="btn btn-sm btn-primary" href="#download" data-i18n="nav.download">Download</a>
+          <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="pill"><i class="dot"></i><span data-i18n="hero.badge">Free forever · Fabric support</span></span>
+            <h1>
+              <span data-i18n="hero.t1">Boost your frames.</span><br />
+              <span class="grad" data-i18n="hero.t2">Master your game.</span>
+            </h1>
+            <p class="lead" data-i18n="hero.lead">
+              An all-in-one Minecraft client with a serious FPS boost, 60+ built-in PvP mods,
+              your own Fabric mods and free cosmetics — ready in one click.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary btn-lg" href="#download">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1ZM5 19a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5Z"/></svg>
+                <span><span data-i18n="hero.cta">Download for</span> <b class="os-name">Windows</b></span>
+              </a>
+              <a class="btn btn-ghost btn-lg" href="#showcase" data-i18n="hero.cta2">See it in action</a>
+            </div>
+            <ul class="hero-meta">
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="hero.m1">No account required</span></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="hero.m2">Windows, macOS, Linux</span></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="hero.m3">No cheats, server-safe</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="window tilt" id="tilt">
+              <div class="window-bar"><i></i><i></i><i></i><span>Dream Client</span></div>
+              <div class="shot">
+                <img src="/preview/mainmenu.webp" alt="Dream Client main menu" width="1280" height="720" fetchpriority="high" />
+              </div>
+              <div class="hud hud-fps"><span>FPS</span><b id="fps">0</b></div>
+              <div class="hud hud-cps"><span>CPS</span><b id="cps">12</b></div>
+              <div class="hud hud-keys" aria-hidden="true">
+                <kbd>W</kbd>
+                <div><kbd>A</kbd><kbd class="on">S</kbd><kbd>D</kbd></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats">
+          <div class="stat"><b data-count="60" data-suffix="+">0</b><span data-i18n="stats.mods">built-in mods</span></div>
+          <div class="stat"><b>0 zł</b><span data-i18n="stats.price">forever free</span></div>
+          <div class="stat"><b>3</b><span data-i18n="stats.os">operating systems</span></div>
+          <div class="stat"><b>1-click</b><span data-i18n="stats.install">installation</span></div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="section" id="features">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="eyebrow" data-i18n="feat.eyebrow">Why Dream Client</span>
+            <h2 data-i18n="feat.title">Everything you need. Nothing you don't.</h2>
+            <p data-i18n="feat.lead">Built for players who want smooth gameplay and a clean HUD without juggling dozens of mods.</p>
+          </header>
+
+          <div class="bento">
+            <article class="card card-xl reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+              <h3 data-i18n="f1.t">Massive FPS boost</h3>
+              <p data-i18n="f1.d">Modern rendering optimizations, smarter chunk loading and tuned memory management. Smooth gameplay even on older laptops.</p>
+              <div class="bars" aria-hidden="true">
+                <div class="bar"><span data-i18n="f1.vanilla">Vanilla</span><i style="--w:38%"></i></div>
+                <div class="bar bar-hi"><span>Dream Client</span><i style="--w:100%"></i></div>
+              </div>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><path d="M14.5 17.5 3 6V3h3l11.5 11.5M13 19l6-6M16 16l4 4M19 21l2-2"/></svg></div>
+              <h3 data-i18n="f2.t">60+ PvP mods</h3>
+              <p data-i18n="f2.d">Keystrokes, CPS, armor status, toggle sprint, zoom, hit color and many more — all built in.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+              <h3 data-i18n="f3.t">Fabric support</h3>
+              <p data-i18n="f3.d">Drop in your favourite Fabric mods and manage them from a built-in mods manager.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><path d="M20.4 14.5 16 10 4 20M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><circle cx="9" cy="9" r="2"/></svg></div>
+              <h3 data-i18n="f4.t">Free cosmetics</h3>
+              <p data-i18n="f4.d">Capes, wings, hats and more in your locker. No paywalls, no lootboxes.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div>
+              <h3 data-i18n="f5.t">Drag &amp; drop HUD editor</h3>
+              <p data-i18n="f5.d">Place every element exactly where you want it, with live pixel snapping.</p>
+            </article>
+
+            <article class="card card-wide reveal">
+              <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <h3 data-i18n="f6.t">Safe on servers</h3>
+              <p data-i18n="f6.d">Only performance and quality-of-life features — no cheats. Play on your favourite servers without worry.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHOWCASE -->
+      <section class="section" id="showcase">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="eyebrow" data-i18n="show.eyebrow">Showcase</span>
+            <h2 data-i18n="show.title">Take a look inside</h2>
+          </header>
+
+          <div class="tabs reveal" role="tablist" aria-label="Screenshots">
+            <button role="tab" aria-selected="true" data-shot="mainmenu" data-i18n="show.t1">Main menu</button>
+            <button role="tab" aria-selected="false" data-shot="modmenu" data-i18n="show.t2">Mod menu &amp; HUD</button>
+            <button role="tab" aria-selected="false" data-shot="locker" data-i18n="show.t3">Cosmetics locker</button>
+            <button role="tab" aria-selected="false" data-shot="mods" data-i18n="show.t4">Fabric mods</button>
+          </div>
+
+          <figure class="showcase reveal">
+            <div class="window">
+              <div class="window-bar"><i></i><i></i><i></i><span id="shotLabel">Main menu</span></div>
+              <div class="shot">
+                <img id="shotImg" src="/preview/mainmenu.webp" alt="Dream Client main menu" width="1280" height="720" loading="lazy" />
+              </div>
+            </div>
+            <figcaption id="shotCaption" data-i18n="show.c1">A clean main menu with quick access to servers, mods and your locker.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- STEPS -->
+      <section class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <span class="eyebrow" data-i18n="steps.eyebrow">Get started</span>
+            <h2 data-i18n="steps.title">Playing in under a minute</h2>
+          </header>
+          <ol class="steps">
+            <li class="reveal"><b>1</b><h3 data-i18n="s1.t">Download</h3><p data-i18n="s1.d">Grab the installer for your operating system.</p></li>
+            <li class="reveal"><b>2</b><h3 data-i18n="s2.t">Log in</h3><p data-i18n="s2.d">Sign in with your Microsoft account, just like in the official launcher.</p></li>
+            <li class="reveal"><b>3</b><h3 data-i18n="s3.t">Play</h3><p data-i18n="s3.d">Pick your mods, set up your HUD and jump into the game.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="container faq-wrap">
+          <header class="section-head left reveal">
+            <span class="eyebrow">FAQ</span>
+            <h2 data-i18n="faq.title">Questions? Answers.</h2>
+            <p data-i18n="faq.lead">Can't find what you're looking for? Ask us on Discord.</p>
+            <a class="btn btn-ghost" href="https://dc.dreamclient.pl" target="_blank" rel="noopener" data-i18n="faq.cta">Join Discord</a>
+          </header>
+          <div class="faq reveal">
+            <details open><summary data-i18n="q1">Is Dream Client completely free?</summary><p data-i18n="a1">Yes. Dream Client is 100% free to download and use — cosmetics included.</p></details>
+            <details><summary data-i18n="q2">Does it really boost FPS?</summary><p data-i18n="a2">Yes. Rendering optimizations and smarter memory management significantly increase FPS on most PCs, especially weaker ones.</p></details>
+            <details><summary data-i18n="q3">Which systems are supported?</summary><p data-i18n="a3">Windows, macOS and Linux.</p></details>
+            <details><summary data-i18n="q4">Can I use my own Fabric mods?</summary><p data-i18n="a4">Yes. Add them through the built-in Fabric mods manager and use them alongside the built-in mods.</p></details>
+            <details><summary data-i18n="q5">Will I get banned on servers?</summary><p data-i18n="a5">Dream Client has no cheats — only performance and quality-of-life features. Still, always check the rules of the server you play on.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD -->
+      <section class="section" id="download">
+        <div class="container">
+          <div class="cta-card reveal">
+            <div class="cta-glow" aria-hidden="true"></div>
+            <h2 data-i18n="dl.title">Ready for smoother gameplay?</h2>
+            <p data-i18n="dl.lead">Download Dream Client for free and feel the difference from your first match.</p>
+            <div class="os-grid">
+              <a class="os" data-os="windows" href="/download/windows">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5.5 10.5 4.5v7H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>
+                <span>Windows</span><small>.exe</small>
+              </a>
+              <a class="os" data-os="mac" href="/download/macos">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.2 1-4 2.5-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.1-1.2 2.9-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-.9-2.4-4zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg>
+                <span>macOS</span><small>.dmg</small>
+              </a>
+              <a class="os" data-os="linux" href="/download/linux">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2c-2.2 0-3.6 1.8-3.6 4.4 0 1.5.2 2.4-.6 3.8-.9 1.5-2.8 3.6-2.8 6.3 0 .8.1 1.4.4 1.9-.8.4-1.9.6-1.9 1.6 0 1.2 2 1.2 3.4 1.7 1 .4 1.7.8 2.5.8.9 0 1.4-.6 1.9-.9h2.8c.5.3 1 .9 1.9.9.8 0 1.5-.4 2.5-.8 1.4-.5 3.4-.5 3.4-1.7 0-1-1.1-1.2-1.9-1.6.3-.5.4-1.1.4-1.9 0-2.7-1.9-4.8-2.8-6.3-.8-1.4-.6-2.3-.6-3.8C15.6 3.8 14.2 2 12 2z"/></svg>
+                <span>Linux</span><small>.AppImage</small>
+              </a>
+            </div>
+            <p class="fine" data-i18n="dl.fine">Requires a legal copy of Minecraft: Java Edition.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="brand" href="#top"><span>Dream<b>Client</b></span></a>
+          <p class="fine" data-i18n="foot.disc">Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+          <a href="https://dc.dreamclient.pl" target="_blank" rel="noopener">Discord</a>
+        </nav>
+        <p class="fine">© <span id="year">2026</span> Dream Client</p>
+      </div>
+    </footer>
+
+    <script src="/assets/main.js" defer></script>
+  </body>
+</html>
